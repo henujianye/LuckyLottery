@@ -61,7 +61,7 @@
             </objects>
             <point key="canvasLocation" x="-607" y="1849"/>
         </scene>
-        <!--View Controller-->
+        <!--购彩大厅-->
         <scene sceneID="nK2-q4-QDU">
             <objects>
                 <viewController id="XpY-RH-Z1l" sceneMemberID="viewController">
@@ -74,7 +74,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.6057819880776022" blue="0.46515227567504669" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mdH-sy-Icf"/>
+                    <navigationItem key="navigationItem" title="购彩大厅" id="mdH-sy-Icf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hbe-1O-i9G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -131,7 +131,7 @@
             </objects>
             <point key="canvasLocation" x="-690" y="-282"/>
         </scene>
-        <!--View Controller-->
+        <!--合买跟单-->
         <scene sceneID="5We-kL-RmF">
             <objects>
                 <viewController id="l7f-Mk-w1s" sceneMemberID="viewController">
@@ -144,13 +144,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.29202767069339253" blue="0.49274383414178002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jX0-MA-0JA"/>
+                    <navigationItem key="navigationItem" title="合买跟单" id="jX0-MA-0JA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rmV-4f-MbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1068" y="620"/>
         </scene>
-        <!--View Controller-->
+        <!--开奖信息-->
         <scene sceneID="WUX-SJ-Skz">
             <objects>
                 <viewController id="YND-kN-ddi" sceneMemberID="viewController">
@@ -163,13 +163,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.23128880908226013" green="0.38859686804895532" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="a8q-h1-ET4"/>
+                    <navigationItem key="navigationItem" title="开奖信息" id="a8q-h1-ET4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fuk-uX-7rV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1068" y="1308"/>
         </scene>
-        <!--View Controller-->
+        <!--幸运选号-->
         <scene sceneID="een-Et-z56">
             <objects>
                 <viewController id="bFT-qP-9Sx" sceneMemberID="viewController">
@@ -182,13 +182,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.61460048695832215" green="1" blue="0.28280109470827242" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="d2h-9h-rZV"/>
+                    <navigationItem key="navigationItem" title="幸运选号" id="d2h-9h-rZV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VEb-AE-Bts" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1068" y="1998"/>
         </scene>
-        <!--View Controller-->
+        <!--我的彩票-->
         <scene sceneID="bMJ-Qi-0vH">
             <objects>
                 <viewController id="wwL-eM-HYz" sceneMemberID="viewController">
@@ -201,7 +201,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.90036685476035461" blue="0.13193040696599145" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ckH-8z-xdi"/>
+                    <navigationItem key="navigationItem" title="我的彩票" id="ckH-8z-xdi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rU6-ob-G9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -35,6 +35,27 @@
     [self.tabBar addSubview:myTabbar];
     
     
+    //设置导航栏的样式
+    
+    UINavigationBar *navBar = [UINavigationBar appearance];
+    
+    NSString *image = nil;
+    if (IOS7) {
+        image = @"NavBar64";
+    }else{
+        image = @"NavBar";
+    }
+    [navBar setBackgroundImage:[UIImage imageNamed:image] forBarMetrics:UIBarMetricsDefault];
+    
+    
+    
+    
+    NSMutableDictionary *attribute = [NSMutableDictionary dictionary];
+    attribute[UITextAttributeTextColor] = [UIColor whiteColor];
+    attribute[UITextAttributeFont] = [UIFont systemFontOfSize:19];
+    [navBar setTitleTextAttributes:attribute];
+    
+    
     // Do any additional setup after loading the view.
 }
 

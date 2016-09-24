@@ -60,6 +60,7 @@
 		4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyTabbarBtn.m; sourceTree = "<group>"; };
 		4EE97E7A1D96A792009B7DD1 /* JyMyTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyMyTabbar.h; sourceTree = "<group>"; };
 		4EE97E7B1D96A792009B7DD1 /* JyMyTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyMyTabbar.m; sourceTree = "<group>"; };
+		4EE97E7E1D96C80E009B7DD1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		4E4212761D96384300B2D054 = {
 			isa = PBXGroup;
 			children = (
+				4EE97E7E1D96C80E009B7DD1 /* PrefixHeader.pch */,
 				4E4212811D96384500B2D054 /* LuckyLottery */,
 				4E42129B1D96384600B2D054 /* LuckyLotteryTests */,
 				4E4212A61D96384600B2D054 /* LuckyLotteryUITests */,
@@ -484,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T44HFZV8JM;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = LuckyLottery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.LuckyLottery;
@@ -496,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T44HFZV8JM;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = LuckyLottery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.LuckyLottery;
