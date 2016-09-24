@@ -30,7 +30,7 @@
         <!--Item-->
         <scene sceneID="41w-eJ-gd4">
             <objects>
-                <navigationController id="fD0-7B-Tlv" sceneMemberID="viewController">
+                <navigationController id="fD0-7B-Tlv" customClass="JyMyNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="9gU-Bh-mDp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="360-um-0JK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -47,7 +47,7 @@
         <!--Item-->
         <scene sceneID="Jvj-jN-OJu">
             <objects>
-                <navigationController id="Wul-Tf-XU5" sceneMemberID="viewController">
+                <navigationController id="Wul-Tf-XU5" customClass="JyMyNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="Tpy-Sd-e3y"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="czu-Xo-px3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -72,18 +72,85 @@
                     <view key="view" contentMode="scaleToFill" id="VBF-99-mNP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjR-1L-OWr">
+                                <frame key="frameInset" minX="144" minY="268" width="46" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="yZI-ZE-bGl" kind="push" id="8kk-5w-cdJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.6057819880776022" blue="0.46515227567504669" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="购彩大厅" id="mdH-sy-Icf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hbe-1O-i9G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1030" y="-110"/>
+            <point key="canvasLocation" x="1029.5999999999999" y="-110.19490254872565"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xAf-Ue-MaF">
+            <objects>
+                <viewController id="yZI-ZE-bGl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eNs-ix-M1T"/>
+                        <viewControllerLayoutGuide type="bottom" id="SCd-4O-EeA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4xQ-4y-2ab">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xxD-Kq-Z8x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ITR-hi-cb1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1769" y="-19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0Kp-g6-tgo">
+            <objects>
+                <viewController id="Yql-E0-hMn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jtU-c0-jKk"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Pg-9w-Oxo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fu8-3w-tDN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kd9-N3-T7b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="khE-8H-byo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2518" y="443"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eka-bp-NbP">
+            <objects>
+                <viewController id="4yr-BK-KV7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J3U-bu-bbn"/>
+                        <viewControllerLayoutGuide type="bottom" id="csL-g6-gYU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="w95-4F-IXx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="omg-bM-2mn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xen-7q-yfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2449" y="1330"/>
         </scene>
         <!--Item-->
         <scene sceneID="BaB-UG-7r5">
             <objects>
-                <navigationController id="k6t-KR-7oX" sceneMemberID="viewController">
+                <navigationController id="k6t-KR-7oX" customClass="JyMyNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="4AQ-yy-T4Z"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CNE-mB-UwX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -100,7 +167,7 @@
         <!--Item-->
         <scene sceneID="J1G-xD-yMF">
             <objects>
-                <navigationController id="ez1-cY-ovo" sceneMemberID="viewController">
+                <navigationController id="ez1-cY-ovo" customClass="JyMyNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="LLq-ok-BbM"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Urq-up-d8d">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -117,7 +184,7 @@
         <!--Item-->
         <scene sceneID="HsZ-im-6jZ">
             <objects>
-                <navigationController id="fsS-FO-HU4" sceneMemberID="viewController">
+                <navigationController id="fsS-FO-HU4" customClass="JyMyNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="NDG-3x-jLR"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3GV-pn-W4w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -142,6 +209,16 @@
                     <view key="view" contentMode="scaleToFill" id="9tU-tZ-OKA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7D-YC-cY2">
+                                <frame key="frameInset" minX="139" minY="250" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Yql-E0-hMn" kind="push" id="J0B-VG-AGx"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.29202767069339253" blue="0.49274383414178002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="合买跟单" id="jX0-MA-0JA"/>
@@ -164,6 +241,9 @@
                         <color key="backgroundColor" red="0.23128880908226013" green="0.38859686804895532" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="开奖信息" id="a8q-h1-ET4"/>
+                    <connections>
+                        <segue destination="4yr-BK-KV7" kind="push" id="VmC-Qq-E3W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fuk-uX-7rV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

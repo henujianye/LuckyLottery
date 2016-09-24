@@ -18,6 +18,7 @@
 		4E4212B91D963D2800B2D054 /* JyTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4212B81D963D2800B2D054 /* JyTabbarController.m */; };
 		4EE97E791D96A38A009B7DD1 /* JyTabbarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */; };
 		4EE97E7C1D96A792009B7DD1 /* JyMyTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E7B1D96A792009B7DD1 /* JyMyTabbar.m */; };
+		4EE97E811D96D3CA009B7DD1 /* JyMyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E801D96D3CA009B7DD1 /* JyMyNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		4EE97E7A1D96A792009B7DD1 /* JyMyTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyMyTabbar.h; sourceTree = "<group>"; };
 		4EE97E7B1D96A792009B7DD1 /* JyMyTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyMyTabbar.m; sourceTree = "<group>"; };
 		4EE97E7E1D96C80E009B7DD1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4EE97E7F1D96D3CA009B7DD1 /* JyMyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyMyNavigationController.h; sourceTree = "<group>"; };
+		4EE97E801D96D3CA009B7DD1 /* JyMyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyMyNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +196,8 @@
 			children = (
 				4E4212B71D963D2800B2D054 /* JyTabbarController.h */,
 				4E4212B81D963D2800B2D054 /* JyTabbarController.m */,
+				4EE97E7F1D96D3CA009B7DD1 /* JyMyNavigationController.h */,
+				4EE97E801D96D3CA009B7DD1 /* JyMyNavigationController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE97E811D96D3CA009B7DD1 /* JyMyNavigationController.m in Sources */,
 				4EE97E7C1D96A792009B7DD1 /* JyMyTabbar.m in Sources */,
 				4EE97E791D96A38A009B7DD1 /* JyTabbarBtn.m in Sources */,
 				4E42128A1D96384500B2D054 /* ViewController.m in Sources */,
