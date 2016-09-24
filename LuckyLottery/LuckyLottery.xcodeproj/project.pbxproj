@@ -17,6 +17,7 @@
 		4E4212A81D96384600B2D054 /* LuckyLotteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4212A71D96384600B2D054 /* LuckyLotteryUITests.m */; };
 		4E4212B91D963D2800B2D054 /* JyTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4212B81D963D2800B2D054 /* JyTabbarController.m */; };
 		4EE97E791D96A38A009B7DD1 /* JyTabbarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */; };
+		4EE97E7C1D96A792009B7DD1 /* JyMyTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E7B1D96A792009B7DD1 /* JyMyTabbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		4E4212B81D963D2800B2D054 /* JyTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyTabbarController.m; sourceTree = "<group>"; };
 		4EE97E771D96A38A009B7DD1 /* JyTabbarBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyTabbarBtn.h; sourceTree = "<group>"; };
 		4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyTabbarBtn.m; sourceTree = "<group>"; };
+		4EE97E7A1D96A792009B7DD1 /* JyMyTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyMyTabbar.h; sourceTree = "<group>"; };
+		4EE97E7B1D96A792009B7DD1 /* JyMyTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyMyTabbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 			children = (
 				4EE97E771D96A38A009B7DD1 /* JyTabbarBtn.h */,
 				4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */,
+				4EE97E7A1D96A792009B7DD1 /* JyMyTabbar.h */,
+				4EE97E7B1D96A792009B7DD1 /* JyMyTabbar.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -326,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE97E7C1D96A792009B7DD1 /* JyMyTabbar.m in Sources */,
 				4EE97E791D96A38A009B7DD1 /* JyTabbarBtn.m in Sources */,
 				4E42128A1D96384500B2D054 /* ViewController.m in Sources */,
 				4E4212871D96384500B2D054 /* AppDelegate.m in Sources */,
