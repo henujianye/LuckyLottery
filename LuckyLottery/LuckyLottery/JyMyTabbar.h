@@ -20,5 +20,6 @@
 
 @property (nonatomic, weak) id<JyMyTabbarDelegate> delegate;
 
+- (void)addTabbarButtonWithImageName:(NSString *)image selectedImageName:(NSString *)selectedImage;
 
 @end

@@ -18,17 +18,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //移除系统自带的tabbar
-    [self.tabBar removeFromSuperview];
     
     JyMyTabbar *myTabbar = [[JyMyTabbar alloc]init];
-    myTabbar.frame = self.tabBar.frame;
+    myTabbar.frame = self.tabBar.bounds;
     myTabbar.delegate = self;
-    [self.view addSubview:myTabbar];
+    
+    for (int i = 0; i<self.viewControllers.count; i++) {
+        
+        NSString *imageName = [NSString stringWithFormat:@"TabBar%d",i+1];
+        NSString *selectedImageName = [NSString stringWithFormat:@"TabBar%dSel",i+1];
+    
+        [myTabbar addTabbarButtonWithImageName:imageName selectedImageName:selectedImageName];
+        
+    }
+
+    [self.tabBar addSubview:myTabbar];
     
     
     // Do any additional setup after loading the view.
 }
+
+
 
 - (void)myTabbar:(JyMyTabbar *)tabbar didSelectedButtonFrom:(int)from to:(int)to{
     NSLog(@"%d --------- %d",from,to);
