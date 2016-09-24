@@ -16,6 +16,7 @@
 		4E42129D1D96384600B2D054 /* LuckyLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E42129C1D96384600B2D054 /* LuckyLotteryTests.m */; };
 		4E4212A81D96384600B2D054 /* LuckyLotteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4212A71D96384600B2D054 /* LuckyLotteryUITests.m */; };
 		4E4212B91D963D2800B2D054 /* JyTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4212B81D963D2800B2D054 /* JyTabbarController.m */; };
+		4EE97E791D96A38A009B7DD1 /* JyTabbarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		4E4212A91D96384600B2D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E4212B71D963D2800B2D054 /* JyTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyTabbarController.h; sourceTree = "<group>"; };
 		4E4212B81D963D2800B2D054 /* JyTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyTabbarController.m; sourceTree = "<group>"; };
+		4EE97E771D96A38A009B7DD1 /* JyTabbarBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyTabbarBtn.h; sourceTree = "<group>"; };
+		4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyTabbarBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 		4E4212BB1D963D5800B2D054 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4EE97E771D96A38A009B7DD1 /* JyTabbarBtn.h */,
+				4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE97E791D96A38A009B7DD1 /* JyTabbarBtn.m in Sources */,
 				4E42128A1D96384500B2D054 /* ViewController.m in Sources */,
 				4E4212871D96384500B2D054 /* AppDelegate.m in Sources */,
 				4E4212B91D963D2800B2D054 /* JyTabbarController.m in Sources */,
@@ -560,6 +566,7 @@
 				4E4212AE1D96384600B2D054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E4212AF1D96384600B2D054 /* Build configuration list for PBXNativeTarget "LuckyLotteryTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +575,7 @@
 				4E4212B11D96384600B2D054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E4212B21D96384600B2D054 /* Build configuration list for PBXNativeTarget "LuckyLotteryUITests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +584,7 @@
 				4E4212B41D96384600B2D054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
