@@ -15,6 +15,7 @@
 		4E4212921D96384500B2D054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4212901D96384500B2D054 /* LaunchScreen.storyboard */; };
 		4E42129D1D96384600B2D054 /* LuckyLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E42129C1D96384600B2D054 /* LuckyLotteryTests.m */; };
 		4E4212A81D96384600B2D054 /* LuckyLotteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4212A71D96384600B2D054 /* LuckyLotteryUITests.m */; };
+		4E4212B91D963D2800B2D054 /* JyTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4212B81D963D2800B2D054 /* JyTabbarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4E4212A31D96384600B2D054 /* LuckyLotteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyLotteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4212A71D96384600B2D054 /* LuckyLotteryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyLotteryUITests.m; sourceTree = "<group>"; };
 		4E4212A91D96384600B2D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4212B71D963D2800B2D054 /* JyTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyTabbarController.h; sourceTree = "<group>"; };
+		4E4212B81D963D2800B2D054 /* JyTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyTabbarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +104,9 @@
 		4E4212811D96384500B2D054 /* LuckyLottery */ = {
 			isa = PBXGroup;
 			children = (
-				4E4212851D96384500B2D054 /* AppDelegate.h */,
-				4E4212861D96384500B2D054 /* AppDelegate.m */,
+				4E4212B51D963A5500B2D054 /* Classes */,
 				4E4212881D96384500B2D054 /* ViewController.h */,
 				4E4212891D96384500B2D054 /* ViewController.m */,
-				4E42128B1D96384500B2D054 /* Main.storyboard */,
-				4E42128E1D96384500B2D054 /* Assets.xcassets */,
 				4E4212901D96384500B2D054 /* LaunchScreen.storyboard */,
 				4E4212931D96384500B2D054 /* Info.plist */,
 				4E4212821D96384500B2D054 /* Supporting Files */,
@@ -117,6 +117,10 @@
 		4E4212821D96384500B2D054 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4E42128B1D96384500B2D054 /* Main.storyboard */,
+				4E42128E1D96384500B2D054 /* Assets.xcassets */,
+				4E4212851D96384500B2D054 /* AppDelegate.h */,
+				4E4212861D96384500B2D054 /* AppDelegate.m */,
 				4E4212831D96384500B2D054 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +142,47 @@
 				4E4212A91D96384600B2D054 /* Info.plist */,
 			);
 			path = LuckyLotteryUITests;
+			sourceTree = "<group>";
+		};
+		4E4212B51D963A5500B2D054 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E4212B61D963A8100B2D054 /* Main */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4E4212B61D963A8100B2D054 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4E4212BC1D963D6400B2D054 /* Controller */,
+				4E4212BB1D963D5800B2D054 /* View */,
+				4E4212BA1D963D4100B2D054 /* Model */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		4E4212BA1D963D4100B2D054 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4E4212BB1D963D5800B2D054 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4E4212BC1D963D6400B2D054 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E4212B71D963D2800B2D054 /* JyTabbarController.h */,
+				4E4212B81D963D2800B2D054 /* JyTabbarController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +323,7 @@
 			files = (
 				4E42128A1D96384500B2D054 /* ViewController.m in Sources */,
 				4E4212871D96384500B2D054 /* AppDelegate.m in Sources */,
+				4E4212B91D963D2800B2D054 /* JyTabbarController.m in Sources */,
 				4E4212841D96384500B2D054 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
