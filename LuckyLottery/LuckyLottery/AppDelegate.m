@@ -18,6 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     application.statusBarStyle = UIControlStateHighlighted;
+    application.statusBarHidden = NO;
     return YES;
 }
 

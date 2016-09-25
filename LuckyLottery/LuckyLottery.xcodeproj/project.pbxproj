@@ -16,6 +16,9 @@
 		4E42129D1D96384600B2D054 /* LuckyLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E42129C1D96384600B2D054 /* LuckyLotteryTests.m */; };
 		4E4212A81D96384600B2D054 /* LuckyLotteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4212A71D96384600B2D054 /* LuckyLotteryUITests.m */; };
 		4E4212B91D963D2800B2D054 /* JyTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4212B81D963D2800B2D054 /* JyTabbarController.m */; };
+		4E645E611D976E1900F3F572 /* NavButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E645E601D976E1900F3F572 /* NavButton.m */; };
+		4E645E651D9778E500F3F572 /* BugNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E645E641D9778E500F3F572 /* BugNavigationController.m */; };
+		4E8CF54E1D9760DB00A39F14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CF54D1D9760DB00A39F14 /* Images.xcassets */; };
 		4EE97E791D96A38A009B7DD1 /* JyTabbarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */; };
 		4EE97E7C1D96A792009B7DD1 /* JyMyTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E7B1D96A792009B7DD1 /* JyMyTabbar.m */; };
 		4EE97E811D96D3CA009B7DD1 /* JyMyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E801D96D3CA009B7DD1 /* JyMyNavigationController.m */; };
@@ -57,6 +60,11 @@
 		4E4212A91D96384600B2D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E4212B71D963D2800B2D054 /* JyTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyTabbarController.h; sourceTree = "<group>"; };
 		4E4212B81D963D2800B2D054 /* JyTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyTabbarController.m; sourceTree = "<group>"; };
+		4E645E5F1D976E1900F3F572 /* NavButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavButton.h; sourceTree = "<group>"; };
+		4E645E601D976E1900F3F572 /* NavButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavButton.m; sourceTree = "<group>"; };
+		4E645E631D9778E500F3F572 /* BugNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugNavigationController.h; sourceTree = "<group>"; };
+		4E645E641D9778E500F3F572 /* BugNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugNavigationController.m; sourceTree = "<group>"; };
+		4E8CF54D1D9760DB00A39F14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4EE97E771D96A38A009B7DD1 /* JyTabbarBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyTabbarBtn.h; sourceTree = "<group>"; };
 		4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyTabbarBtn.m; sourceTree = "<group>"; };
 		4EE97E7A1D96A792009B7DD1 /* JyMyTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyMyTabbar.h; sourceTree = "<group>"; };
@@ -120,6 +128,7 @@
 				4E4212891D96384500B2D054 /* ViewController.m */,
 				4E4212901D96384500B2D054 /* LaunchScreen.storyboard */,
 				4E4212931D96384500B2D054 /* Info.plist */,
+				4E8CF54D1D9760DB00A39F14 /* Images.xcassets */,
 				4E4212821D96384500B2D054 /* Supporting Files */,
 			);
 			path = LuckyLottery;
@@ -158,6 +167,7 @@
 		4E4212B51D963A5500B2D054 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4E645E5D1D976DBF00F3F572 /* Buy(合买订单) */,
 				4E4212B61D963A8100B2D054 /* Main */,
 			);
 			name = Classes;
@@ -198,6 +208,33 @@
 				4E4212B81D963D2800B2D054 /* JyTabbarController.m */,
 				4EE97E7F1D96D3CA009B7DD1 /* JyMyNavigationController.h */,
 				4EE97E801D96D3CA009B7DD1 /* JyMyNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4E645E5D1D976DBF00F3F572 /* Buy(合买订单) */ = {
+			isa = PBXGroup;
+			children = (
+				4E645E621D9778B500F3F572 /* Controller */,
+				4E645E5E1D976DF700F3F572 /* View */,
+			);
+			name = "Buy(合买订单)";
+			sourceTree = "<group>";
+		};
+		4E645E5E1D976DF700F3F572 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E645E5F1D976E1900F3F572 /* NavButton.h */,
+				4E645E601D976E1900F3F572 /* NavButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4E645E621D9778B500F3F572 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E645E631D9778E500F3F572 /* BugNavigationController.h */,
+				4E645E641D9778E500F3F572 /* BugNavigationController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -312,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4212921D96384500B2D054 /* LaunchScreen.storyboard in Resources */,
+				4E8CF54E1D9760DB00A39F14 /* Images.xcassets in Resources */,
 				4E42128F1D96384500B2D054 /* Assets.xcassets in Resources */,
 				4E42128D1D96384500B2D054 /* Main.storyboard in Resources */,
 			);
@@ -343,8 +381,10 @@
 				4EE97E791D96A38A009B7DD1 /* JyTabbarBtn.m in Sources */,
 				4E42128A1D96384500B2D054 /* ViewController.m in Sources */,
 				4E4212871D96384500B2D054 /* AppDelegate.m in Sources */,
+				4E645E651D9778E500F3F572 /* BugNavigationController.m in Sources */,
 				4E4212B91D963D2800B2D054 /* JyTabbarController.m in Sources */,
 				4E4212841D96384500B2D054 /* main.m in Sources */,
+				4E645E611D976E1900F3F572 /* NavButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = T44HFZV8JM;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = LuckyLottery/Info.plist;
@@ -504,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = T44HFZV8JM;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = LuckyLottery/Info.plist;
