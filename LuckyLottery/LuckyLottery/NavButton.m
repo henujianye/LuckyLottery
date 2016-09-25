@@ -7,6 +7,7 @@
 //
 
 #import "NavButton.h"
+#import <Availability.h>
 @interface NavButton()
 
 @property (nonatomic, strong) UIFont *attributeFont;
@@ -40,8 +41,18 @@
     CGFloat titleY = 0;
     CGFloat titleH = contentRect.size.height;
     NSDictionary *attribute = @{NSFontAttributeName : self.attributeFont};
+    CGFloat titleW;
+    if (IOS7) {
+        
+#ifdef __IPHONE_7_0
+        titleW = [self.currentTitle boundingRectWithSize:CGSizeMake(MAXFLOAT, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:attribute context:nil].size.width;
+#else
+        titleW = [self.currentTitle sizeWithFont:self.attributeFont].width;
+#endif
+    }else{
+        titleW = [self.currentTitle sizeWithFont:self.attributeFont].width;
+    }
     
-    CGFloat titleW = [self.currentTitle boundingRectWithSize:CGSizeMake(MAXFLOAT, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:attribute context:nil].size.width;
     
     NSLog(@"---------titleW %f",titleW);
 
