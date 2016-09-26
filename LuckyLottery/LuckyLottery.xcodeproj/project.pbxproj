@@ -19,6 +19,8 @@
 		4E645E611D976E1900F3F572 /* NavButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E645E601D976E1900F3F572 /* NavButton.m */; };
 		4E645E651D9778E500F3F572 /* BugNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E645E641D9778E500F3F572 /* BugNavigationController.m */; };
 		4E8CF54E1D9760DB00A39F14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CF54D1D9760DB00A39F14 /* Images.xcassets */; };
+		4EB0A0FE1D97EB7600DE30F8 /* UIImage+Estension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB0A0FD1D97EB7600DE30F8 /* UIImage+Estension.m */; };
+		4EB0A1021D97F01700DE30F8 /* MyLottery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB0A1011D97F01700DE30F8 /* MyLottery.m */; };
 		4EE97E791D96A38A009B7DD1 /* JyTabbarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */; };
 		4EE97E7C1D96A792009B7DD1 /* JyMyTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E7B1D96A792009B7DD1 /* JyMyTabbar.m */; };
 		4EE97E811D96D3CA009B7DD1 /* JyMyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE97E801D96D3CA009B7DD1 /* JyMyNavigationController.m */; };
@@ -65,6 +67,10 @@
 		4E645E631D9778E500F3F572 /* BugNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugNavigationController.h; sourceTree = "<group>"; };
 		4E645E641D9778E500F3F572 /* BugNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugNavigationController.m; sourceTree = "<group>"; };
 		4E8CF54D1D9760DB00A39F14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EB0A0FC1D97EB7600DE30F8 /* UIImage+Estension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Estension.h"; sourceTree = "<group>"; };
+		4EB0A0FD1D97EB7600DE30F8 /* UIImage+Estension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Estension.m"; sourceTree = "<group>"; };
+		4EB0A1001D97F01700DE30F8 /* MyLottery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLottery.h; sourceTree = "<group>"; };
+		4EB0A1011D97F01700DE30F8 /* MyLottery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLottery.m; sourceTree = "<group>"; };
 		4EE97E771D96A38A009B7DD1 /* JyTabbarBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyTabbarBtn.h; sourceTree = "<group>"; };
 		4EE97E781D96A38A009B7DD1 /* JyTabbarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyTabbarBtn.m; sourceTree = "<group>"; };
 		4EE97E7A1D96A792009B7DD1 /* JyMyTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyMyTabbar.h; sourceTree = "<group>"; };
@@ -167,6 +173,8 @@
 		4E4212B51D963A5500B2D054 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4EB0A0FF1D97EFE600DE30F8 /* MyLottery */,
+				4EB0A0F71D97E9DF00DE30F8 /* Other */,
 				4E645E5D1D976DBF00F3F572 /* Buy(合买订单) */,
 				4E4212B61D963A8100B2D054 /* Main */,
 			);
@@ -237,6 +245,32 @@
 				4E645E641D9778E500F3F572 /* BugNavigationController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		4EB0A0F71D97E9DF00DE30F8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4EB0A0F81D97E9EE00DE30F8 /* Category */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		4EB0A0F81D97E9EE00DE30F8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4EB0A0FC1D97EB7600DE30F8 /* UIImage+Estension.h */,
+				4EB0A0FD1D97EB7600DE30F8 /* UIImage+Estension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		4EB0A0FF1D97EFE600DE30F8 /* MyLottery */ = {
+			isa = PBXGroup;
+			children = (
+				4EB0A1001D97F01700DE30F8 /* MyLottery.h */,
+				4EB0A1011D97F01700DE30F8 /* MyLottery.m */,
+			);
+			name = MyLottery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +414,8 @@
 				4EE97E7C1D96A792009B7DD1 /* JyMyTabbar.m in Sources */,
 				4EE97E791D96A38A009B7DD1 /* JyTabbarBtn.m in Sources */,
 				4E42128A1D96384500B2D054 /* ViewController.m in Sources */,
+				4EB0A0FE1D97EB7600DE30F8 /* UIImage+Estension.m in Sources */,
+				4EB0A1021D97F01700DE30F8 /* MyLottery.m in Sources */,
 				4E4212871D96384500B2D054 /* AppDelegate.m in Sources */,
 				4E645E651D9778E500F3F572 /* BugNavigationController.m in Sources */,
 				4E4212B91D963D2800B2D054 /* JyTabbarController.m in Sources */,
